@@ -108,7 +108,7 @@ function Hero() {
       <Box
         display={"grid"}
         gridTemplateColumns={"repeat(12, 1fr)"}
-        mt={{ xxsm: "1rem", xl: "4rem" }}
+        mt={{ xxsm: "1rem", lg: "5rem" }}
       >
         <Heading
           fontSize={{ xxsm: "3rem", md: "4rem", xl: "5.5rem" }}
