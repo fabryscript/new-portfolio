@@ -70,7 +70,7 @@ function Hero() {
           }}
           mt={{ xxsm: "1rem" }}
           ref={parallaxScroll.ref}
-          src="/geometric/three_3.png"
+          src="/geometric/romboid.png"
         />
       </Grid>
       <Box
@@ -132,7 +132,7 @@ function Hero() {
           <br />
           <br />
           Accessibility is also a crucial element which holds the power to
-          extend the usage of my products to potentially everyone
+          extend the usage of my products to potentially everyone.
         </Text>
       </Box>
     </Box>
