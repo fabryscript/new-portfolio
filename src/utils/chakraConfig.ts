@@ -1,5 +1,5 @@
 import { extendTheme } from "@chakra-ui/react";
-import { Quicksand, Bodoni_Moda } from "next/font/google";
+import { Bodoni_Moda } from "next/font/google";
 import localFont from "next/font/local";
 
 const bodoniModaItalic = localFont({
@@ -8,11 +8,6 @@ const bodoniModaItalic = localFont({
     { path: "../../public/fonts/BodoniModa-Italic.ttf", weight: "400", style: "normal" },
   ],
   variable: "--font-criteria",
-});
-
-export const quicksand = Quicksand({
-  weight: ["400", "500", "600"],
-  subsets: ["latin"],
 });
 
 export const bodoni = Bodoni_Moda({
@@ -28,8 +23,17 @@ export const theme = extendTheme({
   styles: {
     global: () => ({
       body: {
-        bg: "#121212"
+        bg: "#ededed"
       }
     })
+  },
+  breakpoints: {
+    xxsm: "320px",
+    xsm: "375px",
+    sm: "425px",
+    md: "768px",
+    lg: "1024px",
+    xl: "1440px",
+    xxl: "2560px"
   }
 });
